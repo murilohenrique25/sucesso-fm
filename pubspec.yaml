@@ -1,0 +1,37 @@
+name: sucesso_jm
+description: Aqui é bem melhor !
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.3+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.1
+  url_launcher: ^6.0.3
+  fab_circular_menu: ^1.0.2
+  flutter_native_splash: ^1.1.8+4
+  google_mobile_ads: ^0.11.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  assets_audio_player: ^3.0.3+2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: AssetAudioPlayer
+      fonts:
+        - asset: fonts/AssetAudioPlayer.ttf
+
+flutter_native_splash:
+  color: "#42a5f5"
