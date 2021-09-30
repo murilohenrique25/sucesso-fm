@@ -1,6 +1,6 @@
 # Sucesso FM
 
-###N ovo projeto em Flutter.
+### Novo projeto em Flutter.
 
 ### Integração com tempo.
 
